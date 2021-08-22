@@ -1,0 +1,8 @@
+USE [MedyanaDB]
+GO
+
+/****** Object:  User [mu]    Script Date: 22.08.2021 22:34:24 ******/
+CREATE USER [mu] FOR LOGIN [mu] WITH DEFAULT_SCHEMA=[dbo]
+GO
+
+

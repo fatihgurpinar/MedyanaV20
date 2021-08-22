@@ -1,0 +1,29 @@
+USE [MedyanaDB]
+GO
+
+/****** Object:  Table [dbo].[Clinic]    Script Date: 22.08.2021 22:15:37 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Clinic](
+	[ClinicId] [int] IDENTITY(1,1) NOT NULL,
+	[ClinicName] [nvarchar](200) NULL,
+	[CreatedByUserId] [int] NULL,
+	[CreationDate] [datetime] NULL,
+	[LastUpdatedByUserId] [int] NULL,
+	[LastUpdatedDate] [datetime] NULL,
+	[Active] [int] NULL,
+ CONSTRAINT [PK_Clinic] PRIMARY KEY CLUSTERED 
+(
+	[ClinicId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Clinic] ADD  CONSTRAINT [DF_Clinic_Active]  DEFAULT ((1)) FOR [Active]
+GO
+
+

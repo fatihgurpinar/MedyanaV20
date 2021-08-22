@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreApiService</name>
+    </assembly>
+    <members>
+        <member name="T:CoreApiService.Controllers.ClinicController">
+            <summary>
+            Clinic API methods
+            </summary>
+        </member>
+        <member name="M:CoreApiService.Controllers.ClinicController.#ctor(CoreApiServiceToDB.Data.ClinicData.IClinicRepo,Microsoft.Extensions.Configuration.IConfiguration,CoreApiServiceToDB.Logger.LoggerToTxt.ILoggerToTxt)">
+            <summary>
+            
+            </summary>
+            <param name="repo"></param>
+            <param name="config"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:CoreApiService.Controllers.ClinicController.GetTest">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiService.Controllers.ClinicController.ClinicList(CommonLib.Params.FilterParams.ClinicFilterParams)">
+            <summary>
+            
+            </summary>
+            <param name="clinicFilterParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiService.Controllers.ClinicController.ClinicSave(CommonLib.DTOs.ClinicDTO.ClinicToSaveDTO)">
+            <summary>
+            
+            </summary>
+            <param name="clinicToSaveDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreApiService.Controllers.EquipmentController">
+            <summary>
+            Equipment API methods
+            </summary>
+        </member>
+        <member name="M:CoreApiService.Controllers.EquipmentController.#ctor(CoreApiServiceToDB.Data.EquipmentData.IEquipmentRepo,Microsoft.Extensions.Configuration.IConfiguration,CoreApiServiceToDB.Logger.LoggerToTxt.ILoggerToTxt)">
+            <summary>
+            This controller is used for equipment operations. It includes EquipmentList and EquipmentSave methods
+            </summary>
+            <param name="repo">This is injected repo parameter with pre-parameterized in startup</param>
+            <param name="config">This is injected config parameter</param>
+            <param name="logger"></param>     
+        </member>
+        <member name="M:CoreApiService.Controllers.EquipmentController.GetTest">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiService.Controllers.EquipmentController.EquipmentList(CommonLib.Params.FilterParams.EquipmentFilterParams)">
+            <summary>
+            
+            </summary>
+            <param name="equipmentFilterParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApiService.Controllers.EquipmentController.EquipmentSave(CommonLib.DTOs.EquipmentDTO.EquipmentToSaveDTO)">
+            <summary>
+            
+            </summary>
+            <param name="equipmentToSaveDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreApiService.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreApiService.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CoreApiService.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreApiService.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreApiService.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CoreApiService.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CoreApiService.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CoreApiService.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

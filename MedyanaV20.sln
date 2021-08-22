@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{03853DBD-97A8-464C-9604-46435BE624A2}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\ReadMe.txt = Docs\ReadMe.txt
+		Docs\RnDnotes.txt = Docs\RnDnotes.txt
+		Docs\TempNotes.txt = Docs\TempNotes.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLib", "CommonLib\CommonLib.csproj", "{F75D4526-9D47-44D1-A1C1-17233F32F90E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiService", "CoreApiService\CoreApiService.csproj", "{0E0B3B6E-F7B6-4614-A79C-2A60A0EAA3F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiServiceToDB", "CoreApiServiceToDB\CoreApiServiceToDB.csproj", "{F839794C-1D2F-4FF4-891D-15B444B0779C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{EC3EC2D8-7021-4879-A32A-D4AC3660D0EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{1AC86B18-8809-4956-A2A5-C134B7969C9B}"
+	ProjectSection(SolutionItems) = preProject
+		CreateClinicTable.txt = CreateClinicTable.txt
+		Docs\CreateDB.txt = Docs\CreateDB.txt
+		CreateEquipmentTable.txt = CreateEquipmentTable.txt
+		CreateMedyanaUser.txt = CreateMedyanaUser.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F75D4526-9D47-44D1-A1C1-17233F32F90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75D4526-9D47-44D1-A1C1-17233F32F90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75D4526-9D47-44D1-A1C1-17233F32F90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75D4526-9D47-44D1-A1C1-17233F32F90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0B3B6E-F7B6-4614-A79C-2A60A0EAA3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0B3B6E-F7B6-4614-A79C-2A60A0EAA3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0B3B6E-F7B6-4614-A79C-2A60A0EAA3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0B3B6E-F7B6-4614-A79C-2A60A0EAA3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F839794C-1D2F-4FF4-891D-15B444B0779C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F839794C-1D2F-4FF4-891D-15B444B0779C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F839794C-1D2F-4FF4-891D-15B444B0779C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F839794C-1D2F-4FF4-891D-15B444B0779C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3EC2D8-7021-4879-A32A-D4AC3660D0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3EC2D8-7021-4879-A32A-D4AC3660D0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3EC2D8-7021-4879-A32A-D4AC3660D0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3EC2D8-7021-4879-A32A-D4AC3660D0EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AC86B18-8809-4956-A2A5-C134B7969C9B} = {03853DBD-97A8-464C-9604-46435BE624A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB23B14C-D7E0-49B2-ADCB-890E73F160CF}
+	EndGlobalSection
+EndGlobal

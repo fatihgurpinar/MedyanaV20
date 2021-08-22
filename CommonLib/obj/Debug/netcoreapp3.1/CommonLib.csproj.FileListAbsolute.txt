@@ -1,0 +1,9 @@
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\bin\Debug\netcoreapp3.1\CommonLib.deps.json
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\bin\Debug\netcoreapp3.1\CommonLib.dll
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\bin\Debug\netcoreapp3.1\CommonLib.pdb
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\obj\Debug\netcoreapp3.1\CommonLib.csprojAssemblyReference.cache
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\obj\Debug\netcoreapp3.1\CommonLib.AssemblyInfoInputs.cache
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\obj\Debug\netcoreapp3.1\CommonLib.AssemblyInfo.cs
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\obj\Debug\netcoreapp3.1\CommonLib.csproj.CoreCompileInputs.cache
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\obj\Debug\netcoreapp3.1\CommonLib.dll
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CommonLib\obj\Debug\netcoreapp3.1\CommonLib.pdb

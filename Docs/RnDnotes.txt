@@ -1,0 +1,40 @@
+
+---------------------------------------------------------
+
+Note#1: How to generate DBContext in EFcore
+
+1) Install following packages into ORM .net core project with nuget manager.
+   This project must be set as startup project during creation of classess and context code!
+
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design
+
+2) While you run "Scaffold-DbContext" you should be in startup project!
+   The project that contains ORM folder must be startup project temporarily during this step.
+
+3) in Packager Manager Console use the commands below
+   
+   Attention: The command below 
+   - creates folder with name "Model" in the root of startup project
+   - fills all classess and context code in Model folder
+
+Command :
+Scaffold-DbContext "Data Source=DESKTOP-LCLJC1O;Initial Catalog=MedyanaDB;User ID=mu;Password=mu123++;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+4) creates classes and DBcontext into sepearate foders
+
+Command: 
+Scaffold-DbContext "Data Source=DESKTOP-LCLJC1O;Initial Catalog=MedyanaDB;User ID=mu;Password=mu123++;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir ORM/MSSQL/Models -ContextDir ORM/MSSQL/Context
+
+---------------------------------------------------------
+
+Note #2
+
+
+LinqKit.Core 1.1.22 is installed for pagination
+
+
+---------------------------------------------------------

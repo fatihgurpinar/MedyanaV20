@@ -1,0 +1,15 @@
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CoreApiServiceToDB.deps.json
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CoreApiServiceToDB.runtimeconfig.json
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CoreApiServiceToDB.runtimeconfig.dev.json
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CoreApiServiceToDB.dll
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CoreApiServiceToDB.pdb
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CommonLib.dll
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\bin\Debug\netcoreapp3.1\CommonLib.pdb
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.csprojAssemblyReference.cache
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.AssemblyInfoInputs.cache
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.AssemblyInfo.cs
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.csproj.CoreCompileInputs.cache
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.csproj.CopyComplete
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.dll
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.pdb
+D:\SoftwareDev\AspNetCore\CoreApiService\CoreApiService\CoreApiServiceToDB\obj\Debug\netcoreapp3.1\CoreApiServiceToDB.genruntimeconfig.cache
